@@ -40,7 +40,7 @@ In contrast, few-shot learning, which involved providing two labeled examples in
 **K-Mean Clustering Algorithm:**
 To analyze the results, the K-means clustering algorithm was used. This classifier achieved an 82% accuracy on the few-shot learning prompts. K-means clustering initializes k centroids, assigns each datapoint to the closest centroid based on the Euclidean distance, and clusters correct and incorrectly predicted values. It was found to be the best fit for the scatter plot.
 
-**Extra Experiments:**
+**Experiments:**
 - Different temperature values (0.1, 0.01, 0.001) were tested. The accuracy of the baseline model did not change significantly, but for few-shot learning, the accuracy ranged from 6.3% to 9.88%.
 - Including more labeled examples in the input prompt
 
